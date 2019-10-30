@@ -78,7 +78,7 @@ declare interface AirDatepickerInstance
 declare interface AirDatepickerStatic
 {
     (): JQuery;
-    (options: DatepickerOptions): JQuery;
+    (options: AirDatepickerOptions): JQuery;
 }
 
 declare interface JQuery
